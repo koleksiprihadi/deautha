@@ -25,6 +25,7 @@ echo "pilih bahasa :"; read bahasa
 
 case $bahasa in
 	1 )
+		iwconfig
 		echo "aktifkan monitor mode[y], monitor mode sudah aktif[N]"
 		read mmode
 		
@@ -42,6 +43,7 @@ case $bahasa in
 			N )
 				clear
 				iwconfig
+				deauth
 				;;
 			* )
 				clear
@@ -50,6 +52,7 @@ case $bahasa in
 		esac				
 		;;
 	2 )
+		iwconfig
 		echo "activate monitor mode[y], monitor mode is active[N]"
 		read mmode
 		
@@ -67,6 +70,7 @@ case $bahasa in
 			N )
 				clear
 				iwconfig
+				deauth
 				;;
 			* )
 				clear
