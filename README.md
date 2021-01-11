@@ -1,4 +1,4 @@
-# deauth
+# deautha
 program bash shell Deauthentication Attack Access Point Menggunakan Aireplay-ng 
 
 ## program ini dibuat dan ditest pada
@@ -29,4 +29,3 @@ BUG_REPORT_URL="https://bugs.kali.org/"
 1. download atau clone
 2. pindah kedirektori dimana file tersebut disimpan
 3. lakukan perintah ./deautha.sh
-
