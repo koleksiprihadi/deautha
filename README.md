@@ -1,5 +1,5 @@
 # deautha
-program bash shell Deauthentication Attack Access Point Menggunakan Aireplay-ng 
+program bash shell Deauthentication Attack Access Point Menggunakan Aireplay-ng.
 
 ## program ini dibuat dan ditest pada
 
